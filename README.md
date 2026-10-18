@@ -16,7 +16,7 @@ Registered users can capture or upload an intraoral image, select the required A
 
 The workflow brings image processing, model inference, result interpretation, and clinician review together in one place.
 
-![OralScan AI platform overview](assets/screenshots/platform-overview.png)
+![OralScan AI platform overview](screenshots/platform-overview.jpeg)
 
 ## Key Features
 
@@ -33,31 +33,31 @@ The workflow brings image processing, model inference, result interpretation, an
 
 The dashboard provides an entry point to the platform's scan workflow and related features.
 
-![OralScan AI dashboard and workflow](assets/screenshots/dashboard-and-workflow.png)
+![OralScan AI dashboard and workflow](screenshots/dashboard-and-workflow.jpeg)
 
 Additional dashboard features support navigation through the platform and access to its main functions.
 
-![OralScan AI dashboard features](assets/screenshots/dashboard-features.png)
+![OralScan AI dashboard features](screenshots/dashboard-features.jpeg)
 
 ## Model Selection
 
 Users can select the required classification and segmentation models before running an analysis. Keeping these stages distinct makes it possible to review the outputs of each model as part of the overall workflow.
 
-![Model selection interface](assets/screenshots/model-selection.png)
+![Model selection interface](screenshots/model-selection.jpeg)
 
 ## Segmentation Results
 
 The segmentation stage identifies relevant regions in the oral image, including areas associated with a suspected lesion. These visual outputs provide spatial context for reviewing the AI analysis.
 
-![Oral image segmentation results](assets/screenshots/segmentation-results.png)
+![Oral image segmentation results](screenshots/segmentation-results.jpeg)
 
 ## Classification Confidence and Analysis Details
 
 The classification stage estimates probabilities across the supported diagnostic classes. Model confidence and additional analysis information help users inspect the results rather than relying on a single predicted label.
 
-![Model confidence](assets/screenshots/model-confidence.png)
+![Model confidence](screenshots/model-confidence.jpeg)
 
-![Analysis details](assets/screenshots/analysis-details.png)
+![Analysis details](screenshots/analysis-details.jpeg)
 
 The outputs should be interpreted in the context of the model, available data, and clinical review. Confidence values alone do not establish diagnostic certainty.
 
@@ -73,7 +73,7 @@ The platform follows a structured workflow from image submission to clinician re
 6. **Result review** — The user examines the visual outputs, class probabilities, and available confidence information.
 7. **Clinician feedback** — Reviewed predictions are recorded to support model evaluation.
 
-![OralScan AI clinical workflow](assets/screenshots/clinical-workflow.png)
+![OralScan AI clinical workflow](screenshots/clinical-workflow.jpeg)
 
 ## AI Pipeline and System Architecture
 
@@ -95,7 +95,7 @@ The AI server hosts the segmentation and classification models and performs the 
 
 This separation allows the application layer and AI models to evolve independently, providing a foundation for future scaling and deployment improvements.
 
-![OralScan AI architecture and pipeline](assets/screenshots/architecture-ai-pipeline.png)
+![OralScan AI architecture and pipeline](screenshots/architecture-ai-pipeline.jpeg)
 
 ## About the Project
 
@@ -103,7 +103,7 @@ OralScan AI V2 brings together the major stages of an applied computer-vision wo
 
 Its focus is not only on generating predictions, but also on making model outputs easier to inspect and evaluate through visual evidence and clinician-reviewed feedback.
 
-![About OralScan AI](assets/screenshots/about-section.png)
+![About OralScan AI](screenshots/about-section.jpeg)
 
 ## Clinician-Reviewed Model Evaluation
 
